@@ -7,8 +7,13 @@ This SDK allows mobile developers to provide credit card payment functionality w
 ### CocoaPods
 ```
     pod 'AuthorizeNetAccept'  
-```  
+```
 
+### Carthage
+```
+    github "AuthorizeNet/accept-sdk-ios"
+``` 
+ 
 ### Manual Installation
 
 Include the ```AcceptSDK.framework``` in the application. In Xcode, select the main project file for the target. In the "General" section of the project's properties, scroll down to "Embedded Binaries", press the plus sign (+), and select the framework.
